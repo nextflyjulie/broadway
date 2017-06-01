@@ -4,45 +4,72 @@ body {
 }
 
 nav {
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
   color: white;
 }
 
+.hero {
+    background-image: url(../images/the-flatiron-building.png);
+    text-align: center;
+    color: white;
+    margin-top:-50px;
+}
+
+.btn-nav {
+font-size: 18px;
+color: white;
+}
+
 h1 {
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 70px;
   font-weight: bold;
   color: white;
 }
 
 h2 {
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 32px;
   font-weight: bold;
+  color: black;
 }
 
 h3 {
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 23px;
   font-weight: bold;
+  color: black;
 }
 
 p {
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 14px;
+  color: black;
 }
 
 .white {
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 23px;
   font-weight: bold;
   color: white;
+  background-image: url(../images/the-flatiron-building.png);
 }
 
-.footer {
-  font-family: Helvetica;
+.footer  {
+  font-family: "Helvetica", sans-serif;
   font-size: 11px;
   color: white;
   background-color: dimgray;
+  text-align: left;
+}
+
+.footer p {
+    color: white;
+    text-align: left;
+    font-size: 11px;
+}
+
+.footer a {
+  text-align: left;
 }
